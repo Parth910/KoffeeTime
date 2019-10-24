@@ -65,8 +65,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void increment(View view){
-        if(numberOfCoffees > 99){
-            Toast.makeText(this, "You cannot order more than 100 coffee", Toast.LENGTH_SHORT).show();
+        if(numberOfCoffees > 9){
+            Toast.makeText(this, "You cannot order more than 10 coffee", Toast.LENGTH_SHORT).show();
             return;
         }
         numberOfCoffees++;
